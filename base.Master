@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="base.master.cs" Inherits="BoostWow._base" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>NHC LoL</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--<link rel="stylesheet" href="css/plugins/slick.css">-->
+    <link rel="stylesheet" href="css/plugins/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="css/plugins/jquery.mCustomScrollbar.css">
+     <link rel="stylesheet" href="css/plugins/jquery.colorbox.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <nav>
+        <div class="container">
+            <a href="#!/home">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+            </a>
+            <ul class="navigation lava">
+                <li>
+                    <a href="#!/home">
+                        <div><i class="fa fa-home"></i>HOME</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!/accounts">
+                        <div><i class="fa fa-key"></i>ACCOUNTS</div>
+                    </a>
+                </li>
+				<li>
+                    <a href="#!/gifts">
+                        <div><i class="fa fa-gift"></i>GIFTS</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!/faq">
+                        <div><i class="fa fa-support"></i>FAQ</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!/contact">
+                        <div><i class="fa fa-envelope-o"></i>CONTACT</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <div id="social_float">
+		<a href="https://www.facebook.com/NHCLoL" target="_blank"><img src="img/FB-f-Logo__blue_50.png" alt="Facebook" title="Facebook"></a><br />
+	</div>
+
+    <script src="js/plugins/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+    </script>
+    <script src="js/plugins/jquery.transit.min.js"></script>
+    <script src="js/plugins/jquery.mCustomScrollbar.js"></script>
+    <script src="js/plugins/jquery.dataTables.min.js"></script>
+    <script src="js/plugins/slick.js"></script>
+    <script src="js/plugins/slider.js"></script>
+    <script src="js/plugins/shake.js"></script>
+    <script src="js/plugins/jquery.lavalamp.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
