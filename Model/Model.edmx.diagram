@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="5b545ba9c0b74c21ac78594e0f1132ad" Name="Diagram1">
         <EntityTypeShape EntityType="BoostWowModel.User" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoostWowModel.MessagePvP" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

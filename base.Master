@@ -35,10 +35,10 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li class="current"><a href="/home.aspx">Home</a></li>
-							<li><a href="no-sidebar.html">PvP</a></li>
-							<li><a href="no-sidebar.html">Golds</a></li>
-							<li><a href="no-sidebar.html">Contact</a></li>
+							<li class="current" id="home"><a href="/home.aspx">Home</a></li>
+							<li id="pvp"><a href="/pvp.aspx">PvP</a></li>
+							<li id="gold"><a href="no-sidebar.html">Golds</a></li>
+							<li id="contact"><a href="no-sidebar.html">Contact</a></li>
 						</ul>
 					</nav>
 

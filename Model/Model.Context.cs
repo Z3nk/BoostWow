@@ -26,5 +26,6 @@ namespace BoostWow.Model
         }
     
         public virtual DbSet<User> User { get; set; }
+        public virtual DbSet<MessagePvP> MessagePvP { get; set; }
     }
 }
